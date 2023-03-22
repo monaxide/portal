@@ -1,0 +1,11 @@
+service:
+image: 
+servers:
+  - 195.49.212.167
+registry:
+  username: registry-user-name
+  password:
+    - MRSK_REGISTRY_PASSWORD
+env:
+  secret:
+    - RAILS_MASTER_KEY
